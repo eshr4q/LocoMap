@@ -27,6 +27,12 @@ To get a local copy up and running, follow these simple steps.
 
 You'll need [Node.js](https://nodejs.org/) (v16+) installed on your machine.
 
+### Installation
+
+1.  **Clone the repo**
+```sh
+git clone https://github.com/eshr4q/LocoMap.git
+
 2.  **Go into the project directory**
     ```sh
     cd LocoMap
@@ -52,9 +58,5 @@ To run the tests, use the following command:
 npm test
 
 
-### Installation
 
-1.  **Clone the repo**
-```sh
-git clone https://github.com/eshr4q/LocoMap.git
 
