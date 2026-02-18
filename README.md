@@ -2,6 +2,8 @@
 
 A clean and simple app for finding German train stations. Just type in a city name to instantly filter the list.
 
+loco-map.vercel.app
+
 ![Uploading image.png…]()
 
 
