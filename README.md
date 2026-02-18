@@ -2,7 +2,8 @@
 
 A clean and simple app for finding German train stations. Just type in a city name to instantly filter the list.
 
-![LocoMap Screenshot](screenshot.png)
+![Uploading image.png…]()
+
 
 ## About The Project
 
@@ -26,9 +27,34 @@ To get a local copy up and running, follow these simple steps.
 
 You'll need [Node.js](https://nodejs.org/) (v16+) installed on your machine.
 
+2.  **Go into the project directory**
+    ```sh
+    cd LocoMap
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Run the dev server**
+    ```sh
+    npm run dev
+    ```
+
+The app will be running on `http://localhost:5173`.
+
+## Running Tests
+
+This project includes an integration test suite to ensure reliability. The tests cover the main search functionality and confirm that the Zustand store state is handled correctly.
+
+To run the tests, use the following command:
+
+```sh
+npm test
+
+
 ### Installation
 
 1.  **Clone the repo**
 ```sh
-git clone https://github.com/YOUR_USERNAME/LocoMap.git
+git clone https://github.com/eshr4q/LocoMap.git
 
